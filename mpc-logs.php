@@ -46,7 +46,7 @@ class Mpc_Logs {
 		$str .= '<li><a target="_blank" href=" /wp-content/uploads/gravity_forms/logs/gravity-forms-salesforce.txt">Gravity Forms/SalesForce</a></li>';
 		$str .= '<li><a target="_blank" href="/wp-content/uploads/gravity_forms/logs/gravityformsuserregistration.txt">Gravity Forms User Registration</a></li>';
 		$str .= '<li><a target="_blank" href="/wp-admin/admin.php?page=gf_entries&id=68">Phone Numbers</a></li>';
-		$str .= '<li><a target="_blank" href="___">Heroku</a></li>';
+		$str .= '<li><a target="_blank" href="___">Heroku - Use Terminal as Admin: heroku logs -t -a  mpc-phone</a></li>';
 
 		$str .= '</ul>';
 		echo $str;
